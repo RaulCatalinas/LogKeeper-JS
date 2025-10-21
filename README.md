@@ -336,7 +336,3 @@ LogKeeper.info(123) // ✗ Type error
 ### Q: What happens if I don't call `saveLogs()`?
 
 **A:** Some log entries may remain in the buffer and not be written to disk. Always call `saveLogs()` before exit.
-
-### Q: Can I use this in the browser?
-
-**A:** No, LogKe
